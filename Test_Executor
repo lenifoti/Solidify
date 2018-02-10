@@ -1,0 +1,12 @@
+// This is the core of the framework.
+// It will be a register of all actively offered bounties.
+// It will:
+// - accept registration of a bounty (interested parties can observe this using a service such as Etherscan)
+// - accept and hold the tokens offered in the bounties
+// - reject claims outside the offer window 
+// - accept and execute claims
+// - distribute the rewards according to prescribed rules.
+//
+contract TestExecutor
+{
+}
