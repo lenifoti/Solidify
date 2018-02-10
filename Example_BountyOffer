@@ -1,0 +1,5 @@
+// This is an example of a BountyOffer contract
+
+Contract ExampleBountyOffer is BountyOffer
+{
+}
