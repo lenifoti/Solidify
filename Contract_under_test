@@ -2,5 +2,7 @@
 // This will hold a single contract with some transactions and functions that contain various classes of error.
 // This will be used as a testbed for development.
 // 
-// To allow the contract to receive provable reputation it will need to be derived from a base contract "IsReputable"
+// To allow the contract to receive provable reputation it will need to be derived from a base contract "Reputable"
 //
+Contract TheUltimateTest is Reputable
+{
