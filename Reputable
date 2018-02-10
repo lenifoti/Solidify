@@ -1,0 +1,7 @@
+//
+// Reputable conracts are those that can contain reputation.
+// Reputation can only be assinged to reputable Contracts
+// Reputable contracts must also support....
+Contract Reputable
+{
+}
