@@ -1,0 +1,8 @@
+//
+// This contract is a template for an offer.  The derived contract (the <Real>BountyOffer) must implement a set of offers.
+// Each offer contains a published precondition and a published assertion, where failure of the assertion 
+// will release the reward.
+//
+Contract BountyOffer
+{
+}
