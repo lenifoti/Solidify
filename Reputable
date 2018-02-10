@@ -1,7 +1,11 @@
 //
-// Reputable conracts are those that can contain reputation.
-// Reputation can only be assinged to reputable Contracts
+// Reputable contracts are those that can be assigned reputation.
+// Reputation can only be assinged to reputable Contracts by the test
 // Reputable contracts must also support....
 Contract Reputable
 {
+ function Reputable();
+ function GetReputation();
+ function Attest(vulnerabilityID);
+ function Distrpute(vulnerabilityID); //allows the owner to adjust the reputation (downwards only)
 }
